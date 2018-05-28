@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for foo in c %}
+    <h1>用户名：{{ foo.uname }}
+
+
+    </h1>
+    <h1>意见：{{ foo.utext }}</h1>
+    <h1>地址：{{ foo.uaddress }}</h1>
+    <h1>邮箱：{{ foo.uemail }}</h1>
+    <hr>
+{% endfor %}
+
+</body>
+</html>
